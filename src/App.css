@@ -56,3 +56,19 @@
     }
   }
 }
+
+@media screen and (max-width: 1100px) {
+  .trasnlator-container {
+    width: 90%;
+  
+    & .translator {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  * {
+    font-size: 9px;
+  }
+}
