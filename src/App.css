@@ -71,8 +71,8 @@
   * {
     font-size: 9px;
   }
-  
-  textarea {
+
+  .textarea {
     height: 150px;
   }
 }
