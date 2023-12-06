@@ -124,6 +124,7 @@ export default function Translator() {
                 <form action="" className="input-form">
                     <textarea 
                         id="toTranslate" 
+                        className="textarea"
                         spellCheck="false"
                         placeholder='Enter text ...'
                         maxLength={500}
@@ -154,6 +155,7 @@ export default function Translator() {
                         readOnly
                         disabled
                         id="translatedText" 
+                        className="textarea"
                         placeholder='Translated text'
                         maxLength={500}
                 ></textarea>
