@@ -1,0 +1,77 @@
+/* Base & Reset */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+:root {
+  --bg-color: #040711;
+  --dark: #121826cc;
+  --lighter-dark: #212936cc;
+  --dark-gray: #394150;
+  --gray: #4D5562;
+  --light-gray: #CDD5E0;
+  --white: #F9FAFB;
+  --blue: #3662E3;
+  --light-blue: #7CA9F3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url('./assets/hero_img.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: var(--bg-color);
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+hr {
+  width: 100%;
+  border: 2px solid var(--gray);
+  color: var(--gray);
+}
+
+button, select, textarea {
+  background-color: transparent;
+  outline: none;
+  padding: 5px 10px;
+  border: none;
+}
+
+textarea {
+  resize: none;
+  color: var(--white);
+  width: 100%;
+  height: 200px;
+}
+
+button, select {
+  cursor: pointer;
+  border-radius: 8px;
+  color: var(--gray);
+  transition: .3s ease all;
+}
+
+button:hover, button.active, button.active, select:hover {
+  background-color: var(--gray);
+  color: var(--white);
+}
+
+button {
+  z-index: 100;
+}
