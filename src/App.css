@@ -72,7 +72,11 @@
     font-size: 9px;
   }
 
+<<<<<<< HEAD
   .textarea {
+=======
+  textarea {
+>>>>>>> 3e4b341382767c6ebbfefbb757c1b3c9b4ec3a8e
     height: 150px;
   }
 }
